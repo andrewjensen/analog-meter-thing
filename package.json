@@ -1,0 +1,24 @@
+{
+  "name": "analog-meter-thing",
+  "version": "0.0.0",
+  "description": "Control an analog volt meter from an ESP8266 Thing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewjensen/analog-meter-thing.git"
+  },
+  "keywords": [
+    "analog",
+    "esp8266",
+    "arduino"
+  ],
+  "author": "Andrew Jensen <andrewjensen90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewjensen/analog-meter-thing/issues"
+  },
+  "homepage": "https://github.com/andrewjensen/analog-meter-thing#readme"
+}
