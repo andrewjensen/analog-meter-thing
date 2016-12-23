@@ -1,0 +1,18 @@
+#!/usr/bin/env node --harmony
+
+console.log('It\'s the Incredible Analog Meter Thing!');
+
+const program = require('commander');
+const pkg = require('../package.json');
+
+const manual = require('../src/node-client/commands/manual');
+
+program
+  .version(pkg.version, '-v, --version');
+
+program
+  .command('manual <level>')
+  .description('Manually set the meter')
+  .action(manual);
+
+program.parse(process.argv);
